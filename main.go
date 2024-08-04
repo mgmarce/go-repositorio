@@ -2,7 +2,8 @@ package main
 
 import (
 	"fmt"
-	"runtime"
+	"github.com/mgmarce/go-repositorio/ejercicios"
+	//"runtime"
 	//"github.com/mgmarce/go-repositorio/variables"
 )
 
@@ -11,7 +12,7 @@ func main(){
 	fmt.Println(estado)
 	fmt.Println(texto)*/
 
-	if os := runtime.GOOS; os == "Linux." {
+	/*if os := runtime.GOOS; os == "Linux." {
 		fmt.Println("Este no es windows")
 	}else{
 		fmt.Println("Este es windows")
@@ -24,6 +25,10 @@ func main(){
 		fmt.Println("Esto es Darwin")
 	default:
 		fmt.Printf("%s \n", os)
-	}
+	}*/
+
+	numero, texto := ejercicios.ConvNumerico("1")
+	fmt.Println(numero)
+	fmt.Println(texto)
 }
 
