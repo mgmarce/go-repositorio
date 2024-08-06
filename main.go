@@ -1,10 +1,9 @@
 package main
 
 import (
-	"fmt"
-	"github.com/mgmarce/go-repositorio/ejercicios"
+	//"fmt"
+	"github.com/mgmarce/go-repositorio/iteraciones"
 	//"runtime"
-	//"github.com/mgmarce/go-repositorio/variables"
 )
 
 func main(){
@@ -25,10 +24,17 @@ func main(){
 		fmt.Println("Esto es Darwin")
 	default:
 		fmt.Printf("%s \n", os)
-	}*/
+	}
 
 	numero, texto := ejercicios.ConvNumerico("1")
 	fmt.Println(numero)
 	fmt.Println(texto)
+
+	teclado.IngresoNumeros()
+	for {
+		fmt.Println("hola")
+		break
+	}*/
+	iteraciones.Iterar()
 }
 
