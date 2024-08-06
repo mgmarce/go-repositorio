@@ -2,7 +2,7 @@ package main
 
 import (
 	//"fmt"
-	"github.com/mgmarce/go-repositorio/files"
+	"github.com/mgmarce/go-repositorio/funciones"
 	//"runtime"
 )
 
@@ -35,6 +35,7 @@ func main(){
 		fmt.Println("hola")
 		break
 	}
-	fmt.Println(ejercicios.TabladeMultiplicar())*/
-	files.LeoArchivo()
+	fmt.Println(ejercicios.TabladeMultiplicar())
+	files.LeoArchivo()*/
+	funciones.Calculos()
 }
