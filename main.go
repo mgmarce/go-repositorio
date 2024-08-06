@@ -2,7 +2,7 @@ package main
 
 import (
 	//"fmt"
-	"github.com/mgmarce/go-repositorio/iteraciones"
+	"github.com/mgmarce/go-repositorio/files"
 	//"runtime"
 )
 
@@ -34,7 +34,7 @@ func main(){
 	for {
 		fmt.Println("hola")
 		break
-	}*/
-	iteraciones.Iterar()
+	}
+	fmt.Println(ejercicios.TabladeMultiplicar())*/
+	files.LeoArchivo()
 }
-
